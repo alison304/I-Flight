@@ -11,10 +11,6 @@ Claudia González Fuentes.
 - (Github @claunicole)[https://github.com/claunicole]
 - (Linkedin)[https://www.linkedin.com/in/claudia-gonzalez-fuentes/]
 
-Cesar Octavio de Jesus Meza Carrillo.
-- (github: @C3M3Z4C4)[https://github.com/c3m3z4c4]
-- (linkedin)[https://www.linkedin.com/in/cesarmeza80/]
-
 ---
 
 ## Acerca de I flight:
