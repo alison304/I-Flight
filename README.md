@@ -3,11 +3,11 @@
 
 ## Integrantes:
 
-Alison Janise Paico Quispe.
+Alison Janise Paico Quispe
 - (Github @alison304)[https://github.com/alison304/]
 - (Linkedin)[https://www.linkedin.com/in/alison-janise-paico-quispe/]
 
-Claudia González Fuentes. 
+Claudia González Fuentes 
 - (Github @claunicole)[https://github.com/claunicole]
 - (Linkedin)[https://www.linkedin.com/in/claudia-gonzalez-fuentes/]
 
