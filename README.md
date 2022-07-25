@@ -79,10 +79,10 @@ Se uso la API de (Amadeus for devs)[https://developers.amadeus.com/self-service/
 
 ---
 
-### Despliegue
+### Deploy
 
 El deploy fue realizado en Netlify, Para acceder , puede dar click [Aquí](https://keen-kitsune-30b2f1.netlify.app)
 
-# [Sitio I flight](https://keen-kitsune-30b2f1.netlify.app)
+# [Website I flight](https://keen-kitsune-30b2f1.netlify.app)
 
 ---
