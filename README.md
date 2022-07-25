@@ -30,7 +30,7 @@ Siga los siguientes pasos:
 
 1- Descargue el contenido de este repositorio de github con el comando git clone en VS code.
 2- En el terminal o linea de comandos, escribir el comando npm install
-2.- Luego en la linea de comandos colocar npm run dev
+3- Luego en la linea de comandos colocar npm run dev
 
 **Nota**
 Se uso la API de (Amadeus for devs)[https://developers.amadeus.com/self-service/category/air/api-doc/flight-offers-search/api-reference]
