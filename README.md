@@ -25,10 +25,10 @@ Para mayor referencia del proyecto, revise el siguiente (documento)[].
 
 Para arrancar el proyecto en un ambiente local. Realice lo siguiente:
 1- Descargue el contenido de este repositorio.
-2.- Ir a la carpeta Iflight/ en linea de comandos e insertar "npm run dev".
+2.- Ir a la carpeta iflight/ en linea de comandos e insertar "npm run dev".
 
 **Nota**
-Requiere credenciales de una api de (Amadeus for devs)[https://developers.amadeus.com/self-service/category/air/api-doc/flight-offers-search/api-reference], por favor inscríbase, y cree un archivo .env con sus propias credenciales.
+Requiere credenciales de una api de (Amadeus for devs)[https://developers.amadeus.com/self-service/category/air/api-doc/flight-offers-search/api-reference], por favor inscribirse, y cree un archivo .env con sus propias credenciales.
 
 ---
 
@@ -58,7 +58,8 @@ Requiere credenciales de una api de (Amadeus for devs)[https://developers.amadeu
 - React-datepicker 4: Un componente Datepicker simple y reutilizable para React.
 - SweetAlert2: Permite crear alertas personalizadas para enviar notificaciones al usuario.
 - Git/Github: Sistema de control de versiones utilizado para consolidar piezas de código, así como desarrollo ágil de software y puntos de recuperación del mismo.
-- Heroku: Es una plataforma como servicio (PaaS) que permite a los desarrolladores crear, ejecutar y operar aplicaciones completamente en la nube.
+- Redux Toolkit 1.8: Simple. Incluye utilidades para simplificar los casos de uso común, como la configuración de la tienda, la creación de reductores, la lógica de actualización inmutable y más.
+- Netlify: Una poderosa plataforma sin servidor con un flujo de trabajo intuitivo basado en git. Implementaciones automatizadas, vistas previas para compartir y mucho más.
 
 ---
 
