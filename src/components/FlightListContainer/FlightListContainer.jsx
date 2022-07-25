@@ -22,7 +22,7 @@ function FlightListContainer() {
     
 
     useEffect(() => {
-      console.log(dataComplete)
+      console.log(dataComplete,'list')
         list
         .then (resp => {setFlights(resp)})
         .catch(err => {console.log(err)})
