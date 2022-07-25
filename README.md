@@ -75,7 +75,7 @@ Requiere credenciales de una api de (Amadeus for devs)[https://developers.amadeu
 
 ### Despliegue
 
-El deploy del sitio fue realizado en Heroku, Para acceder , puede dar click [Aquí](https://keen-kitsune-30b2f1.netlify.app)
+El deploy del sitio fue realizado en Netlify, Para acceder , puede dar click [Aquí](https://keen-kitsune-30b2f1.netlify.app)
 
 # [Sitio I flight](https://keen-kitsune-30b2f1.netlify.app)
 
