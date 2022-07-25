@@ -1,8 +1,8 @@
-
- import { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 
 import {flights} from "../../data/data"
 import FlightList from "../FlightList/FlightList"
+import { useSearchParams } from "react-router-dom";
 
 const list = new Promise((resolve) => {
     setTimeout(() => {
@@ -11,6 +11,9 @@ const list = new Promise((resolve) => {
   });
 
 function FlightListContainer() {
+    const [searchparams] = useSearchParams();
+    console.log(searchparams.get("fechaIda"));
+    console.log(searchparams.get("fechaRegreso"));    
     const [flights, setFlights] = useState([])
     const [loading, setLoading] = useState(true)
 

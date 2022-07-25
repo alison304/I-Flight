@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { createSearchParams, useNavigate } from "react-router-dom";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -8,6 +8,7 @@ import { Grid, Autocomplete, TextField, Box, CircularProgress } from "@mui/mater
 import { useDispatch, useSelector } from "react-redux";
 import { getAirlineDestination, isLoadingAirlineDestinationList, airlineDestinationListData, airlineDestinationListError } from "../../redux/slices/landing";
 import "./Landing.css";
+import { format } from 'date-fns'
 
 const Landing = () => {
   const navigate = useNavigate();
@@ -87,7 +88,17 @@ const Landing = () => {
                 console.log("Formulario enviado");
                 cambiarFormularioEnviado(true);
                 setTimeout(() => cambiarFormularioEnviado(false), 4000);
-                navigate(`/vuelos`);
+                navigate({
+                  pathname: `/vuelos`,
+                  search: createSearchParams({ 
+                    origen: values.origen,
+                    destino: values.destino,
+                    adultos: values.adultos,
+                    niños: values.niños,
+                    fechaIda: format(values.fechaIda, 'dd/MM/yyyy'),
+                    fechaRegreso: format(values.fechaIda, 'dd/MM/yyyy'),
+                  }).toString()
+                });
               }}
             >
               {({ values, errors, setFieldValue }) => (
@@ -97,7 +108,7 @@ const Landing = () => {
                     <Autocomplete
                       id="combo-box-origen"
                       options={data}
-                      getOptionLabel={(option) => `${option.name}`}
+                      getOptionLabel={(option) => `${option.name} - ${option.iataCode}`}
                       renderInput={(params) => (
                         <TextField {...params} label="" />
                       )}
@@ -118,7 +129,7 @@ const Landing = () => {
                     <Autocomplete
                       id="combo-box-destino"
                       options={data}
-                      getOptionLabel={(option) => `${option.name}`}
+                      getOptionLabel={(option) => `${option.name} - ${option.iataCode}`}
                       renderInput={(params) => (
                         <TextField {...params} label="" />
                       )}
