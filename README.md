@@ -32,7 +32,7 @@ Siga los siguientes pasos:
 2- En el terminal o linea de comandos, escribir el comando npm install
 3- Luego en la linea de comandos colocar npm run dev
 
-**Nota**
+**Nota:**
 Se uso la API de (Amadeus for devs)[https://developers.amadeus.com/self-service/category/air/api-doc/flight-offers-search/api-reference]
 
 ---
