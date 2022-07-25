@@ -3,6 +3,8 @@ import { useState, useEffect } from "react"
 import {flights} from "../../data/data"
 import FlightList from "../FlightList/FlightList"
 import { useSearchParams } from "react-router-dom";
+import {complete} from "../../redux/slices/detail";
+import {  useSelector } from "react-redux";
 
 const list = new Promise((resolve) => {
     setTimeout(() => {
@@ -16,8 +18,11 @@ function FlightListContainer() {
     console.log(searchparams.get("fechaRegreso"));    
     const [flights, setFlights] = useState([])
     const [loading, setLoading] = useState(true)
+    const dataComplete = useSelector(complete);
+    
 
     useEffect(() => {
+      console.log(dataComplete)
         list
         .then (resp => {setFlights(resp)})
         .catch(err => {console.log(err)})

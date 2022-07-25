@@ -10,7 +10,7 @@ function Flight({flight}) {
               <div className="origin-flight">
                 <p>Ida:</p>
                 <div className="origin-init">
-                  <div>{flight.inicio}</div>
+                  <div>inicio</div>
                   <div> 20:06</div>
                 </div>
                 <div className="origin-route">
@@ -19,7 +19,7 @@ function Flight({flight}) {
                   <p>Sin escalas</p>
                 </div>
                 <div className="origin-fin">
-                  <div>{flight.final}</div>
+                  <div>final</div>
                   <div> 07:05</div>
                 </div>
                 {/* <p>Escala</p>
@@ -28,7 +28,7 @@ function Flight({flight}) {
               <div className="destination-flight">
                 <p>Reg:</p>
                 <div className="destination-init">
-                  <div>{flight.final}</div>
+                  <div>final</div>
                   <div> 18:00</div>
                 </div>
                 <div className="origin-route">
@@ -37,7 +37,7 @@ function Flight({flight}) {
                   <p>Sin escalas</p>
                 </div>
                 <div className="destination-fin">
-                  <div>{flight.inicio}</div>
+                  <div>inicio</div>
                   <div> 04:42</div>
                 </div>
                 {/* <p>Escala</p> */}
@@ -50,7 +50,7 @@ function Flight({flight}) {
             {/* <p>Moneda</p> */}
             {/* <p>Precio</p>
             <p>Impuestos</p> */}
-            <div>${flight.price}</div>
+            <div>${flight.price.grandTotal}</div>
             <Link to={`/detail/${flight.id}`}>
             <button>Seleccionar</button>
             </Link>

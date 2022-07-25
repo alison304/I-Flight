@@ -9,6 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getAirlineDestination, isLoadingAirlineDestinationList, airlineDestinationListData, airlineDestinationListError } from "../../redux/slices/landing";
 import "./Landing.css";
 import { format } from 'date-fns'
+import {requestResults} from "../../redux/slices/detail"
 
 const Landing = () => {
   const navigate = useNavigate();
@@ -86,6 +87,7 @@ const Landing = () => {
               onSubmit={(values) => {
                 console.log(values);
                 console.log("Formulario enviado");
+                dispatch(requestResults(values))
                 cambiarFormularioEnviado(true);
                 setTimeout(() => cambiarFormularioEnviado(false), 4000);
                 navigate({
