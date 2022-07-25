@@ -73,6 +73,7 @@ Se uso la API de (Amadeus for devs)[https://developers.amadeus.com/self-service/
 - Github: Sistema de control de versiones utilizado para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. 
 
 - Redux Toolkit 1.8: Simple. Incluye utilidades para simplificar los casos de uso común, como la configuración de la tienda, la creación de reductores, la lógica de actualización inmutable y más.
+- Axios: Cliente http para javascript, sirve para poder conectarnos a la API amadeus.
 
 - Netlify: Una poderosa plataforma sin servidor con un flujo de trabajo intuitivo basado en git. Implementaciones automatizadas, vistas previas para compartir y mucho más.
 
