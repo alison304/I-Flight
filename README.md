@@ -15,7 +15,7 @@ Claudia González Fuentes.
 
 ## Acerca de I flight:
 
-*I flight es un sitio el cual ayuda a sus usuarios a encontrar sus vuelos de manera sencilla.
+I flight es un sitio el cual ayuda a sus usuarios a encontrar sus vuelos de manera sencilla.
 
 Para mayor referencia del proyecto, revise el siguiente (documento)[].
 
@@ -25,7 +25,7 @@ Para mayor referencia del proyecto, revise el siguiente (documento)[].
 
 Para arrancar el proyecto en un ambiente local. realice lo siguiente:
 1- Descargue el contenido de este repositorio.
-2.- Ir a la carpeta iflight/ en linea de comandos e insertar "npm run dev".
+2.- Ir a la carpeta Iflight/ en linea de comandos e insertar "npm run dev".
 
 **Nota**
 Requiere credenciales de una api de (Amadeus for devs)[https://developers.amadeus.com/self-service/category/air/api-doc/flight-offers-search/api-reference], por favor inscríbase, y cree un archivo .env con sus propias credenciales.
@@ -34,7 +34,7 @@ Requiere credenciales de una api de (Amadeus for devs)[https://developers.amadeu
 
 ### Vistas
 
--   *Landing* : Esta página inicial, muestra los campos iniciales para buscar un vuelo, como requeridos tenemos la fecha de ida, fecha de regreso, origen, destino y cuantos adultos que viajan en el vuelo, por otro lado, los campos opcionales son la fecha de salida y los niños 
+-   *Landing* : Esta página inicial, muestra los campos iniciales para buscar un vuelo, como requeridos tenemos la fecha de ida, fecha de regreso, origen, destino y cuantos adultos que viajan en el vuelo, por otro lado, los campos opcionales son la fecha de salida y los niños.
     
 -   *Lista de Vuelos* : Aquí se muestran todos los vuelos disponibles, los cuales fueron resultado de la búsqueda realizada con la información enviada anteriormente.
     
