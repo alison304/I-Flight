@@ -11,10 +11,6 @@ Claudia González Fuentes.
 - (Github @claunicole)[https://github.com/claunicole]
 - (Linkedin)[https://www.linkedin.com/in/claudia-gonzalez-fuentes/]
 
-Cesar Octavio de Jesus Meza Carrillo.
-- (github: @C3M3Z4C4)[https://github.com/c3m3z4c4]
-- (linkedin)[https://www.linkedin.com/in/cesarmeza80/]
-
 ---
 
 ## Acerca de I flight:
@@ -68,8 +64,8 @@ Requiere credenciales de una api de (Amadeus for devs)[https://developers.amadeu
 
 ### Despliegue
 
-El deploy del sitio fue realizado en Heroku, Para acceder , puede dar click [Aquí](https://62d9d6625b245205b90a5f5b--chimerical-kulfi-81c4c8.netlify.app/)
+El deploy del sitio fue realizado en Heroku, Para acceder , puede dar click [Aquí](https://keen-kitsune-30b2f1.netlify.app)
 
-# [Sitio I flight](https://62d9d6625b245205b90a5f5b--chimerical-kulfi-81c4c8.netlify.app/)
+# [Sitio I flight](https://keen-kitsune-30b2f1.netlify.app)
 
 ---
