@@ -23,7 +23,7 @@ Para mayor referencia del proyecto, revise el siguiente (documento)[].
 ---
 ### Inicio Rapido
 
-Para arrancar el proyecto en un ambiente local. realice lo siguiente:
+Para arrancar el proyecto en un ambiente local. Realice lo siguiente:
 1- Descargue el contenido de este repositorio.
 2.- Ir a la carpeta Iflight/ en linea de comandos e insertar "npm run dev".
 
