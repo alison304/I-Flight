@@ -15,7 +15,8 @@ Claudia González Fuentes.
 
 ## Acerca de I flight:
 
-I flight es un sitio el cual ayuda a sus usuarios a encontrar sus vuelos de manera sencilla.
+I flight es una buscador de vuelos, ayuda a sus usuarios a encontrar vuelos de manera sencilla, ha sido desarrollado con Vite de React.
+
 
 Para mayor referencia del proyecto, revise el siguiente (documento)[].
 
