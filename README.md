@@ -24,13 +24,16 @@ Para mayor referencia del proyecto, revise el siguiente (documento)[].
 ---
 ### Inicio Rapido
 
-Para arrancar el proyecto en un ambiente local. 
-Realice lo siguiente:
-1- Descargue el contenido de este repositorio.
-2.- Ir a la carpeta iflight/ en linea de comandos e insertar "npm run dev".
+Para arrancar el proyecto en un ambiente local.
+
+Siga los siguientes pasos:
+
+1- Descargue el contenido de este repositorio de github con el comando git clone en VS code.
+2- En el terminal o linea de comandos, escribir el comando npm install
+2.- Luego en la linea de comandos colocar npm run dev
 
 **Nota**
-Requiere credenciales de una api de (Amadeus for devs)[https://developers.amadeus.com/self-service/category/air/api-doc/flight-offers-search/api-reference], por favor inscribirse, y cree un archivo .env con sus propias credenciales.
+Se uso la API de (Amadeus for devs)[https://developers.amadeus.com/self-service/category/air/api-doc/flight-offers-search/api-reference]
 
 ---
 
