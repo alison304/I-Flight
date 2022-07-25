@@ -4,7 +4,7 @@ const amadeusUrlV1 = import.meta.env.VITE_AMADEUS_URL_V1;
 
 const initialState = {
   isLoading: false,
-  data: {},
+  data: [],
   error: {},
 };
 

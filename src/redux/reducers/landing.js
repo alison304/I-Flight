@@ -2,7 +2,7 @@ import { GET_AIRLINE_DESTINATION_START, GET_AIRLINE_DESTINATION_COMPLETE,  GET_A
   
 const initialState = {
     isLoading: false,
-    data: {},
+    data: [],
     error: {},
 };
 
@@ -10,7 +10,7 @@ const initialState = {
 const airlineDestinationList = (state = initialState, action) => {
     switch (action.type) {
       case GET_AIRLINE_DESTINATION_START:
-        return {...state, isLoading: true, data: {}};
+        return {...state, isLoading: true, data: []};
       case GET_AIRLINE_DESTINATION_COMPLETE:
         return {...state, isLoading: false, data: action.payload };
       case GET_AIRLINE_DESTINATION_ERROR:

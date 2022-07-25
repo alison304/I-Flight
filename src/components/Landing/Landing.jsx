@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Swal from "sweetalert2";
-import { Grid, Autocomplete, TextField } from "@mui/material";
+import { Grid, Autocomplete, TextField, Box, CircularProgress } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { getAirlineDestination, isLoadingAirlineDestinationList, airlineDestinationListData, airlineDestinationListError } from "../../redux/slices/landing";
-import { countries } from "../../data/data";
 import "./Landing.css";
 
 const Landing = () => {
-  const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
+  const navigate = useNavigate();
   const dispatch = useDispatch();
+
+  const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
   const data = useSelector(airlineDestinationListData);
   const isLoading = useSelector(isLoadingAirlineDestinationList);
   const error = useSelector(airlineDestinationListError);  
@@ -21,7 +23,11 @@ const Landing = () => {
   }, []);
 
   if (isLoading) {
-    return <div>Cargando...</div>;
+    return ( 
+    <Box display="flex" justifyContent="center">
+      <CircularProgress />
+    </Box>
+    );
   }  
 
   return (
@@ -81,6 +87,7 @@ const Landing = () => {
                 console.log("Formulario enviado");
                 cambiarFormularioEnviado(true);
                 setTimeout(() => cambiarFormularioEnviado(false), 4000);
+                navigate(`/vuelos`);
               }}
             >
               {({ values, errors, setFieldValue }) => (
@@ -130,6 +137,7 @@ const Landing = () => {
                   <div>
                     <label htmlFor="ida">*Ida</label>
                     <DatePicker
+                      dateFormat="dd/MM/yyyy"
                       selected={values.fechaIda}
                       name="startDate"
                       onChange={(date) => setFieldValue("fechaIda", date)}
@@ -145,6 +153,7 @@ const Landing = () => {
                   <div>
                     <label htmlFor="regreso">*Regreso</label>
                     <DatePicker
+                      dateFormat="dd/MM/yyyy"                    
                       selected={values.fechaRegreso}
                       name="endDate"
                       onChange={(date) => setFieldValue("fechaRegreso", date)}

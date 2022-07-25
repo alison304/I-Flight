@@ -2,7 +2,7 @@ import FlightDetail from "../FlightDetail/FlightDetail"
 import {flights} from "../../data/data"
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-
+import { Box, CircularProgress } from "@mui/material";
 
 
 
@@ -28,10 +28,18 @@ import { useParams } from "react-router-dom";
           .catch((err) =>{console.log(err)})
           .finally(() => setLoading(false))
         },[])
-      
+
+  if (loading) {
+    return ( 
+    <Box display="flex" justifyContent="center">
+      <CircularProgress />
+    </Box>
+    );
+  }
+        
   return (
     <div>    
-         {loading ? <h2>Cargando...</h2> : (<FlightDetail flight={flight}/>)}
+         <FlightDetail flight={flight}/>
     </div>
   )
 }
