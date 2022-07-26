@@ -41,18 +41,17 @@ Se uso la API de [Amadeus for devs] (https://developers.amadeus.com/self-service
 
 ---
 
-🖌️ Vistas 🖌️
+### Vistas 🖌️
 
 -   *Landing* : Esta página inicial, muestra un formulario con los campos iniciales para buscar un vuelo, como requeridos tenemos el origen, destino, la fecha de ida, fecha de regreso y cuantos adultos que viajaran, por otro lado, los campos opcionales son la fecha de salida y los niños.
     
 -   *Lista de Vuelos* : Aquí se muestran todos los vuelos disponibles, los cuales fueron resultado de la búsqueda realizada con la información enviada del formulario.
     
--   *Detalle de los vuelos* :Muestra el detalle del vuelo que seleccionemos desde la vista anterior.
-    
+-   *Detalle de los vuelos* :Muestra el detalle del vuelo que seleccionemos desde la vista anterior. 
 
 ---
 
-✏️ Librerías usadas ✏️
+### Librerías usadas ✏️
 
 - React 17: Librería de JS usada para construir interfaces de usuario.
 
