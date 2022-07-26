@@ -1,3 +1,9 @@
+.title, .price {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
 .detail-container {
     display: flex;
     align-items: center;
@@ -12,8 +18,8 @@
     margin: 30px;
     border: 2px solid #B4C5E4;
     border-radius: 8px;
-    min-height: 80px;
-    width: 600px;
+    min-height: 150px;
+    width: 900px;
     background-color: white;
 }
 
@@ -25,6 +31,6 @@
 
 .origin-route-detail hr, .destination-route-detail hr{
     height: 1px;
-    width: 230px;
+    width: 280px;
     background-color: black;
 }
