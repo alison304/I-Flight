@@ -1,12 +1,3 @@
-            <img
-              src="/assets/IFlight Logo/IFlight Logo.png"
-              alt="Foto Logo"
-              width="145"
-              height="150"
-            />
-
----
-
 <h1> ✈️ I flight ✈️ <h1>
 
 
