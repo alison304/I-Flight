@@ -17,12 +17,14 @@ Claudia González Fuentes.
 
 I flight es una buscador de vuelos, ayuda a sus usuarios a encontrar vuelos de manera sencilla, ha sido desarrollado con Vite de React.
 
+---
+
+## Documentación ✈️
 
 Para mayor referencia del proyecto, revise la [Documentación I flight]()
 
-
 ---
-### Inicio Rapido ✈️
+### Inicio rápido ✈️
 
 Para arrancar el proyecto en un ambiente local.
 
