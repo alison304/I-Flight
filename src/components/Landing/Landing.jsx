@@ -9,6 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getAirlineDestination, isLoadingAirlineDestinationList, airlineDestinationListData, airlineDestinationListError } from "../../redux/slices/landing";
 import "./Landing.css";
 import { format } from 'date-fns'
+import Loader from "../Loader";
 import {requestResults} from "../../redux/slices/detail"
 
 const Landing = () => {
@@ -24,16 +25,10 @@ const Landing = () => {
     dispatch(getAirlineDestination());
   }, []);
 
-  if (isLoading) {
-    return ( 
-    <Box display="flex" justifyContent="center">
-      <CircularProgress />
-    </Box>
-    );
-  }  
-
   return (
     <>
+     {isLoading ? <Loader/> 
+                :
       <div style={{ backgroundImage: `url('/assets/IFlight Logo/vuelo.jpg')` }}>
         <Grid
           container
@@ -232,7 +227,7 @@ const Landing = () => {
           </Grid>
         </Grid>
         <br />
-      </div>
+      </div>}
     </>
   );
 };

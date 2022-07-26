@@ -1,10 +1,10 @@
 import Flight from "../Flight/Flight"
 
 
-function FlightList({flights}) {
+function FlightList({data}) {
   return (
     <div>
-          {flights.map(flight => <Flight id={flight.id} flight={flight}/>)}
+      {data.map(flight => <Flight id={flight.id} flight={flight}/>)} 
     </div>
   )
 }

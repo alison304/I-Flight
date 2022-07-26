@@ -1,6 +1,7 @@
 .flight-container {
     display: flex;
     justify-content: center;
+    margin: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,8 +14,8 @@
 }
 
 .travel-flight {
-    min-height: 180px;
-    width: 600px;
+    min-height: 200px;
+    width: 700px;
 }
 
 .origin-flight, .destination-flight {
@@ -41,7 +42,7 @@
 
 .origin-route hr {
     height: 1px;
-    width: 230px;
+    width: 280px;
     background-color: black;
 }
 
