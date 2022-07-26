@@ -19,7 +19,12 @@ const Landing = () => {
   const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
   const data = useSelector(airlineDestinationListData);
   const isLoading = useSelector(isLoadingAirlineDestinationList);
-  const error = useSelector(airlineDestinationListError);  
+  const error = useSelector(airlineDestinationListError);
+  const today = new Date();
+  let tomorrow =  new Date();
+  let dayAfterTomorrow = new Date();
+  tomorrow.setDate(today.getDate() + 1);
+  dayAfterTomorrow.setDate(tomorrow.getDate() + 1);
 
   useEffect(() => {
     dispatch(getAirlineDestination());
@@ -46,8 +51,8 @@ const Landing = () => {
                 destino: "",
                 adultos: 1,
                 niños: 0,
-                fechaIda: new Date(),
-                fechaRegreso: new Date(),
+                fechaIda: tomorrow,
+                fechaRegreso: dayAfterTomorrow,
               }}
               validate={(valores) => {
                 let errores = {};
@@ -60,7 +65,7 @@ const Landing = () => {
                     "El origen solo puede contener letras y espacios";
                 }
 
-                //<validaciones destino
+                //validaciones destino
                 if (!valores.destino) {
                   errores.destino = "Por favor ingresa un destino";
                 } else if (!/^[a-zA-ZÀ-ÿ\s]{1,30}$/.test(valores.destino)) {
@@ -76,6 +81,14 @@ const Landing = () => {
                     "error"
                   );
                 }
+                //validacion fecha ida
+                if (format(valores.fechaIda, 'dd/MM/yyyy') < format(tomorrow, 'dd/MM/yyyy')) {
+                  Swal.fire(
+                    "Error",
+                    "La fecha de ida tiene que ser mayor al dia de hoy",
+                    "error"
+                  );
+                }             
 
                 return errores;
               }}
