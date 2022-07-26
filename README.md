@@ -1,4 +1,4 @@
-# Proyecto I flight
+<h1> ✈️ I flight ✈️ <h1>
 ---
 
 ## Integrantes:
@@ -13,7 +13,7 @@ Claudia González Fuentes.
 
 ---
 
-## Acerca de I flight:
+## Acerca de I flight ✈️
 
 I flight es una buscador de vuelos, ayuda a sus usuarios a encontrar vuelos de manera sencilla, ha sido desarrollado con Vite de React.
 
@@ -22,7 +22,7 @@ Para mayor referencia del proyecto, revise la [Documentación I flight]()
 
 
 ---
-### Inicio Rapido
+### Inicio Rapido ✈️
 
 Para arrancar el proyecto en un ambiente local.
 
@@ -81,7 +81,7 @@ Se uso la API de (Amadeus for devs)[https://developers.amadeus.com/self-service/
 
 ---
 
-### Deploy
+### Deploy ✈️
 
 El deploy fue realizado en Netlify, Para acceder , puede dar click [Aquí](https://keen-kitsune-30b2f1.netlify.app)
 
