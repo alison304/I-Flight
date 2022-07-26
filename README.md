@@ -46,9 +46,9 @@ Se uso la API de [Amadeus for devs](https://developers.amadeus.com/self-service/
 
 -   *Landing* : Esta página inicial, muestra un formulario con los campos iniciales para buscar un vuelo, como requeridos tenemos el origen, el destino, la fecha de ida, la fecha de regreso, la fecha de salida, cuantos adultos viajaran y el campo opcional es el de niños.
     
--   *Lista de Vuelos* : Aquí se muestran todos los vuelos disponibles, los cuales fueron resultado de la búsqueda realizada con la información enviada del formulario.
+-   *Lista de Vuelos* : Aquí se muestran todos los vuelos disponibles.
     
--   *Detalle de los vuelos* :Muestra el detalle del vuelo que seleccionemos desde la vista anterior. 
+-   *Detalle de los vuelos* : Se muestra el detalle del vuelo que seleccionemos. 
 
 ---
 
