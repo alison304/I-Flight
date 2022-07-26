@@ -1,7 +1,7 @@
 <h1> ✈️ I flight ✈️ <h1>
 
 
-## Integrantes:
+📍 Integrantes:
 
 👩‍✈️ Alison Janise Paico Quispe
 - (Github @alison304)[https://github.com/alison304/]
@@ -13,18 +13,19 @@
 
 ---
 
-## Acerca de I flight ✈️
+📍Acerca de I flight ✈️
 
-📍I flight es un buscador de vuelos, ayuda a sus usuarios a encontrar vuelos de manera sencilla, ha sido desarrollado con Vite de React.
+I flight es un buscador de vuelos, ayuda a sus usuarios a encontrar vuelos de manera sencilla, ha sido desarrollado con Vite de React.
 
 ---
 
-## Documentación ✈️
+📍Documentación ✈️
 
 Para mayor referencia del proyecto, revise la [Documentación I flight]()
 
 ---
-### Inicio rápido ✈️
+
+📍Inicio rápido ✈️
 
 Para arrancar el proyecto en un ambiente local.
 
@@ -41,7 +42,7 @@ Se uso la API de [Amadeus for devs] (https://developers.amadeus.com/self-service
 
 ---
 
-🖌️ Vistas 
+🖌️ Vistas 🖌️
 
 -   *Landing* : Esta página inicial, muestra un formulario con los campos iniciales para buscar un vuelo, como requeridos tenemos el origen, destino, la fecha de ida, fecha de regreso y cuantos adultos que viajaran, por otro lado, los campos opcionales son la fecha de salida y los niños.
     
@@ -83,7 +84,7 @@ Se uso la API de [Amadeus for devs] (https://developers.amadeus.com/self-service
 
 ---
 
-📌 Deploy ✈️
+📍Deploy ✈️
 
 El deploy fue realizado en Netlify, Para acceder , puede dar click [Aquí](https://keen-kitsune-30b2f1.netlify.app)
 
