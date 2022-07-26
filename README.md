@@ -3,11 +3,11 @@
 
 ## Integrantes:
 
-Alison Janise Paico Quispe
+👩‍✈️ Alison Janise Paico Quispe
 - (Github @alison304)[https://github.com/alison304/]
 - (Linkedin)[https://www.linkedin.com/in/alison-janise-paico-quispe/]
 
-Claudia González Fuentes 
+👩‍✈️ Claudia González Fuentes 
 - (Github @claunicole)[https://github.com/claunicole]
 - (Linkedin)[https://www.linkedin.com/in/claudia-gonzalez-fuentes/]
 
@@ -15,7 +15,7 @@ Claudia González Fuentes
 
 ## Acerca de I flight ✈️
 
-I flight es una buscador de vuelos, ayuda a sus usuarios a encontrar vuelos de manera sencilla, ha sido desarrollado con Vite de React.
+📍I flight es un buscador de vuelos, ayuda a sus usuarios a encontrar vuelos de manera sencilla, ha sido desarrollado con Vite de React.
 
 ---
 
@@ -37,11 +37,11 @@ Siga los siguientes pasos:
 3- Luego en la linea de comandos colocar npm run dev
 
 **Nota:**
-Se uso la API de (Amadeus for devs)[https://developers.amadeus.com/self-service/category/air/api-doc/flight-offers-search/api-reference]
+Se uso la API de [Amadeus for devs] (https://developers.amadeus.com/self-service/category/air/api-doc/flight-offers-search/api-reference)
 
 ---
 
-### Vistas
+🖌️ Vistas 
 
 -   *Landing* : Esta página inicial, muestra un formulario con los campos iniciales para buscar un vuelo, como requeridos tenemos el origen, destino, la fecha de ida, fecha de regreso y cuantos adultos que viajaran, por otro lado, los campos opcionales son la fecha de salida y los niños.
     
@@ -52,7 +52,7 @@ Se uso la API de (Amadeus for devs)[https://developers.amadeus.com/self-service/
 
 ---
 
-### Librerías usadas
+✏️ Librerías usadas ✏️
 
 - React 17: Librería de JS usada para construir interfaces de usuario.
 
@@ -83,7 +83,7 @@ Se uso la API de (Amadeus for devs)[https://developers.amadeus.com/self-service/
 
 ---
 
-### Deploy ✈️
+📌 Deploy ✈️
 
 El deploy fue realizado en Netlify, Para acceder , puede dar click [Aquí](https://keen-kitsune-30b2f1.netlify.app)
 
