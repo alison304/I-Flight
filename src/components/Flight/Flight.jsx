@@ -1,3 +1,5 @@
+import Button from '@mui/material/Button';
+
 import { Link } from 'react-router-dom'
 import { useSearchParams } from "react-router-dom";
 
@@ -9,6 +11,7 @@ function Flight({flight}) {
 
   const origen = searchparams.get("origen");
   const destino = searchparams.get("destino");
+
   
   return (
     <div className="flight-container">
@@ -36,7 +39,7 @@ function Flight({flight}) {
             <p>Precio total</p>
             <p>€ {flight.price.grandTotal}</p>
             <Link to={`/detail/${flight.id}`}>
-            <button>Seleccionar</button>
+            <Button variant="contained">Seleccionar</Button>
             </Link>
           </div>
         </div>

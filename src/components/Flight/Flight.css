@@ -1,16 +1,24 @@
+*{
+text-decoration: none;
+}
+
 .flight-container {
     display: flex;
     justify-content: center;
-    margin: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .flight { 
     display: flex;
-    margin: 15px;
+    margin: 10px;
+    padding: 10px;
     border: 1px solid #B4C5E4;
     border-radius: 8px;
     background-color: white;
+}
+
+.flight:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .travel-flight {
@@ -40,9 +48,13 @@
     align-items: center;
 }
 
+.origin-route p {
+    margin-top: 15px;
+}
+
 .origin-route hr {
-    height: 1px;
-    width: 280px;
+    height: 2px;
+    width: 350px;
     background-color: black;
 }
 
@@ -55,11 +67,12 @@
     border-left: 1px solid rgb(221, 221, 221);   
 }
 
-.total-flight button {
+.total-flight button, .total-flight button:hover {
     margin-top: 15px;
-    border: none;
-    border-radius: 4px;
-    font-size: 1.3rem;
+    padding: 12px;
+    font-size: 1.1rem;
+    line-height: normal;
+    text-transform: none;
     background-color: #8684FF;
     color: white;
 }

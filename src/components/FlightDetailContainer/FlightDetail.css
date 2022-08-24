@@ -1,27 +1,27 @@
-.title, .price {
+.title, .price, .subtitle {
     display: flex;
     justify-content: center;
-    margin: 20px;
 }
 
 .detail-container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 35px;
 }
 
-.flight-origin, .flight-destination { 
+.flight-origin { 
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 30px;
-    border: 2px solid #B4C5E4;
+    border: 1px solid #B4C5E4;
     border-radius: 8px;
     min-height: 150px;
     width: 900px;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+
 
 .origin-route-detail, .destination-route-detail{
     display: flex;
@@ -29,7 +29,7 @@
     align-items: center;   
 }
 
-.origin-route-detail hr, .destination-route-detail hr{
+.origin-route-detail hr{
     height: 1px;
     width: 280px;
     background-color: black;

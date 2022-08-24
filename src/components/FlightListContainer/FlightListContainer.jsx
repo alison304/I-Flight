@@ -1,3 +1,6 @@
+import Divider from '@mui/material/Divider';
+import Typography from '@mui/material/Typography';
+
 import FlightList from "../FlightList/FlightList"
 import { useSearchParams } from "react-router-dom";
 import {complete, loading, errorDetail, } from "../../redux/slices/detail";
@@ -16,9 +19,16 @@ function FlightListContainer() {
     console.log(data,'list')
 
   return (
-    <div>
+    <div style={{ margin: 80 }}>
         {isloading ? <Loader/> 
-                   : <FlightList data ={data}/>}
+                   : 
+                   <div>
+                    <Typography gutterBottom variant="h4" component="div" className='title'>
+                        Vuelos disponibles:
+                    </Typography>
+                    <Divider variant="middle" style={{ margin: 20 }}/>
+                    <FlightList data ={data} />
+                   </div>}
     </div>
   )
 
